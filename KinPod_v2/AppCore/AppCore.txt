@@ -1,0 +1,3 @@
+You are responsible for the KinPod app’s core architecture.
+Use Swift and SwiftUI to create a modular, responsive layout.
+Ensure it supports user profiles, task routing, and future mode expansion.
