@@ -1,0 +1,30 @@
+# 🗝️ KinPod Pairing Spec
+
+## Purpose
+Defines how KinPod pairs with ThreadSpace. Families always choose to link — never forced.
+
+## Flow
+- ThreadSpace detects KinPod on local device.
+- Prompt: “Do you want to unlock the Family Hearth Room Tab?”
+- Parents and kids must consent to open KinSocket Bridge.
+- Only final orchestration states, Ritual Logs (Star Trails), and Pin Board metadata flow upstream.
+- No raw Journal or Meaning Map data ever leaves KinPod without triple consent.
+
+## Security & Revocation
+- Secure device UUIDs + ephemeral pairing tokens.
+- Pairing is fully voluntary and can be revoked any time.
+- Ritual Log records pairing, unpairing, and scope changes.
+
+## Developer Notes
+- KinSocket Bridge only exposes final state data.
+- No ephemeral Buddy drafts or raw Codex entries.
+- Parents see shared context — not sealed layers.
+
+🗝️🌙✨
+
+## Acceptance Criteria
+✅ Pairing is always voluntary.
+✅ No raw Meaning Map or Journal data flows upstream without triple consent.
+✅ Only final orchestration states and shared context appear in ThreadSpace.
+✅ Ritual Log (Star Trails) records every pairing, unpairing, or scope change.
+✅ Revocation closes the KinSocket Bridge instantly.
