@@ -1,0 +1,32 @@
+{
+  "quest_name": "Defeat the Laundry Goblin",
+  "story_arc": "The Goblin hid socks everywhere!",
+  "tasks": [
+    {"task": "Sort Socks", "assigned_to": "Sage"},
+    {"task": "Fold Towels", "assigned_to": "Malachi"}
+  ],
+  "reward_options": ["Yes Day", "Park Trip"]
+}
+
+{
+  "quest_name": "Defeat the Laundry Goblin",
+  "story_arc": "The Goblin hid socks everywhere!",
+  "tasks": [
+    {
+      "task": "Sort Socks",
+      "assigned_to": "Sage",
+      "swappable": true
+    },
+    {
+      "task": "Fold Towels",
+      "assigned_to": "Malachi",
+      "swappable": true
+    }
+  ],
+  "reward_options": ["Yes Day", "Park Trip"],
+  "ritual_log_id": "startrail-laundrygoblin-001",
+  "consent_flags": {
+    "parent_approval_required": true,
+    "child_approval_required": true
+  }
+}
